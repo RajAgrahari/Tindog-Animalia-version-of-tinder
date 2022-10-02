@@ -1,0 +1,137 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+section .container-fluid{
+    padding:3% 15%;
+}
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bold;
+    font-size:3rem;
+    line-height:1.5;
+}
+h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+h3{
+    font-family: 'Montserrat-bold', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+/* Navbar-brand */
+nav .container-fluid{
+    padding: 0% 0% 3%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.download-button{
+    margin:3% 2% 5% 0%;
+    font-weight:bolder;
+}
+.title-image{
+    width:60%;
+    transform:rotate(25deg);
+    position:relative;
+}
+/* feature section */
+#features{
+   padding:7% 15%;
+   background-color: #fff;
+   position:relative;
+}
+#features i{
+    color:#ef8176;
+    font-size: 4rem;
+}
+#features i:hover{
+    color:#ff4c68
+}
+#features .row{
+    width:100%;
+    text-align: center;
+}
+#features h3{
+    font-family: 'Montserrat',serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding:2% 0%;
+}
+#features p{
+    color:#8f8f8f;
+}
+/* testimonial section */
+#testimonials{
+    text-align:center;
+    background-color:#dc5368;
+    color:#fff;
+    font-weight: bolder;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+/* press section */
+#press{
+    /* background-color: #dc5368; */
+    background-color: #fff;
+    text-align: center;
+    padding-bottom:3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px;
+}
+#cta{
+    padding-top: 4rem;
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+}
+.icon i{
+    margin:2% 1.5%;
+    font-size: 2rem;
+}
+#pricing{
+    padding:100px;
+    background-color: #ff4c68;
+    text-align: center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
